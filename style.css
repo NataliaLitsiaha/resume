@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    background: #fff0f0;
+    color: #0f141e;
+
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.info {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+@media (max-width: 650px) {
+    .info {
+      display: block;
+      text-align: center;
+    }
+  }
+  
+
+.info-text {
+    margin-left: 20px;
+}
+  
+.info-text p {
+    font-weight: bold;
+    color: #572a67;
+    margin: 0;
+}
+  
+.info-text h4 {
+    margin-bottom: 5px;
+}
+  
+
+.avatar {
+    width: 300px;
+    border-radius: 30px;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.5);
+
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(0, 255, 47);
+}
+
+a:active {
+    color: rgb(60, 135, 30);
+}
+
+.card {
+    border: 1px solid #0dc3f0;
+    border-radius: 16px;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    background: #1ed4f222;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+
+.list {
+    padding: 0 20px;
+    list-style: none;
+}
+
+.list li {
+    color: #0a5912;
+    margin-bottom: 6px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 7px;
+}
+
+.table td:nth-child(2) {
+    color: #2252aa;
+}
+
+
+.form h2 {
+    text-align: center;
+}
+
+.row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.row .group {
+    width: 45%;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.group label {
+    display: block;
+    font-size: 16px;
+    color: #0bda12;
+}
+
+.group input,
+.group textarea {
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid #bbb;
+    color: #222;
+    padding: 16px 0 8px;
+    font-family: inherit;
+}
+
+.btn {
+    background: rgb(249, 249, 125);
+    padding: 10px 20px;
+    color: #111;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    opacity: .9;
+    color: rgb(6, 250, 6);
+}
